@@ -25,8 +25,12 @@ class _LoginPageState extends State<LoginPage> {
           body: Padding(
             padding: const EdgeInsets.all(8.0),
             child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-
+                Column(mainAxisAlignment: MainAxisAlignment.center, 
+                children: [
+                  SizedBox(
+                    width: 150,
+                    height: 150,
+                    child: Image.asset('lib/assets/images/form_logo.png')),
               TextField(
                 onChanged: (value) {
                   email = value;
