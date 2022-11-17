@@ -32,7 +32,7 @@ class HomePageState extends State<HomePage> {
                 Container(
                   height: 10,
                 ),
-                const Text('Um botão switch e um contador'),
+                const Text('Hello there!'),
                 Container(
                   height: 20,
                 ),
