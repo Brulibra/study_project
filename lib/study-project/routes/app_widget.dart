@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/services/app_controler.dart';
-import 'package:study_project/pages/home_page.dart';
-import 'package:study_project/pages/login_page.dart';
+import 'package:study_project/study-project/services/app_controler.dart';
+import 'package:study_project/study-project/pages/home_page.dart';
+import 'package:study_project/study-project/pages/login_page.dart';
 
 class AppWidget extends StatelessWidget {
   final String title;
