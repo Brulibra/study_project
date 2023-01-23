@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/study-project/services/app_controler.dart';
-import 'package:study_project/study-project/pages/home_page.dart';
-import 'package:study_project/study-project/pages/login_page.dart';
+import 'package:study_project/forms/services/app_controler.dart';
+import 'package:study_project/forms/pages/forms_home_page.dart';
+import 'package:study_project/forms/pages/forms_login_page.dart';
+import 'package:study_project/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   final String title;
@@ -20,8 +21,9 @@ class AppWidget extends StatelessWidget {
                   : Brightness.light),
           initialRoute: '/',
           routes: {
-            '/': (context) => LoginPage(),
-            '/home': (context) => HomePage(),
+            '/': (context) => const ProjectsHomePage(),
+            '/formsHome': (context) => const LoginPage(),
+            '/home': (context) => const HomePage(),
           },
         );
       },
