@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/forms/services/app_controler.dart';
-import 'package:study_project/forms/pages/forms_home_page.dart';
-import 'package:study_project/forms/pages/forms_login_page.dart';
+import 'package:study_project/study-projects/forms/services/app_controler.dart';
+import 'package:study_project/study-projects/forms/pages/forms_home_page.dart';
+import 'package:study_project/study-projects/forms/pages/forms_login_page.dart';
 import 'package:study_project/home_page.dart';
-import 'package:study_project/mobileBankApp/bank_home_page.dart';
+import 'package:study_project/study-projects/image_study/pinch_image_page.dart';
 
 class AppWidget extends StatelessWidget {
   final String title;
@@ -22,10 +22,11 @@ class AppWidget extends StatelessWidget {
                   : Brightness.light),
           initialRoute: '/',
           routes: {
-            '/': (context) => const BankHomePage(),
+            '/': (context) => const ProjectsHomePage(),
             '/allProjects': (context) => const ProjectsHomePage(),
             '/formsLogin': (context) => const LoginPage(),
             '/formsHome': (context) => const HomePage(),
+            '/pinchImages': (context) => const PinchImages(),
           },
         );
       },

@@ -18,14 +18,20 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
           child: Scaffold(
             body: Padding(
               padding: const EdgeInsets.all(20),
-              child: Column(
+              child: Center(
+                child: Column(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text('data'),
-                    const SizedBox(height: 20),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                    const Text(
+                      'Aplicativos de Estudo',
+                      style: TextStyle(
+                        fontSize: 36,
+                      ),
+                    ),
+                    const SizedBox(height: 40),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         ElevatedButton(
                           child: const Text('Forms'),
@@ -34,14 +40,20 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
                           },
                         ),
                         ElevatedButton(
-                          child: const Text('Bank App'),
+                          child: const Text('Image Study'),
                           onPressed: () {
-                            Navigator.of(context).pushNamed('/formsLogin');
+                            Navigator.of(context).pushNamed('/pinchImages');
                           },
                         ),
+                        ElevatedButton(
+                          child: const Text('Conversor de Moedas'),
+                          onPressed: () {},
+                        ),
                       ],
-                    )
-                  ]),
+                    ),
+                  ],
+                ),
+              ),
             ),
           ),
         ),
