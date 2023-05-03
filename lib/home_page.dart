@@ -46,6 +46,18 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
                           },
                         ),
                         ElevatedButton(
+                          child: const Text('Easy Image'),
+                          onPressed: () {
+                            Navigator.of(context).pushNamed('/easyImage');
+                          },
+                        ),
+                        ElevatedButton(
+                          child: const Text('Pinch Zoom'),
+                          onPressed: () {
+                            Navigator.of(context).pushNamed('/pinchZoom');
+                          },
+                        ),
+                        ElevatedButton(
                           child: const Text('Conversor de Moedas'),
                           onPressed: () {},
                         ),

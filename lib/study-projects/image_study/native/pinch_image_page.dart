@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/study-projects/image_study/aspect_ratio_widget.dart';
+import 'package:study_project/study-projects/image_study/native/aspect_ratio_widget.dart';
 
 class PinchImages extends StatefulWidget {
   const PinchImages({super.key});
@@ -25,14 +25,14 @@ class _PinchImagesState extends State<PinchImages> {
             Column(
               children: const [
                 Text(
-                  'Isso é um teste de zoom de Imagem',
+                  'Aspect Ratio',
                   style: TextStyle(
                     fontSize: 36,
                   ),
                   textAlign: TextAlign.center,
                 ),
                 Text(
-                  'Dê zoom e veja o que acontece',
+                  'Zoom através do método nativo do flutter',
                   style: TextStyle(
                     fontSize: 24,
                   ),

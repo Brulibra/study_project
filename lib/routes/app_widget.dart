@@ -3,7 +3,10 @@ import 'package:study_project/study-projects/forms/services/app_controler.dart';
 import 'package:study_project/study-projects/forms/pages/forms_home_page.dart';
 import 'package:study_project/study-projects/forms/pages/forms_login_page.dart';
 import 'package:study_project/home_page.dart';
-import 'package:study_project/study-projects/image_study/pinch_image_page.dart';
+import 'package:study_project/study-projects/image_study/external_package/pinch_zoom.dart';
+import 'package:study_project/study-projects/image_study/native/pinch_image_page.dart';
+
+import '../study-projects/image_study/external_package/easy_image_viewer.dart';
 
 class AppWidget extends StatelessWidget {
   final String title;
@@ -27,6 +30,8 @@ class AppWidget extends StatelessWidget {
             '/formsLogin': (context) => const LoginPage(),
             '/formsHome': (context) => const HomePage(),
             '/pinchImages': (context) => const PinchImages(),
+            '/easyImage': (context) => const EasyImageViewer(),
+            '/pinchZoom': (context) => const PinchZoomWidget()
           },
         );
       },
