@@ -22,8 +22,8 @@ class _PinchImagesState extends State<PinchImages> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Text(
                   'Aspect Ratio',
                   style: TextStyle(

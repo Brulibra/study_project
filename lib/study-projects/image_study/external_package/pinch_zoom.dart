@@ -38,7 +38,6 @@ class _PinchZoomWidgetState extends State<PinchZoomWidget> {
             ),
             Expanded(
               child: PinchZoom(
-                resetDuration: const Duration(milliseconds: 100),
                 maxScale: 4,
                 onZoomStart: () {
                   print('Start zooming');
