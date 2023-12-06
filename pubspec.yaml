@@ -48,6 +48,7 @@ dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.1
+  path: ^1.9.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -61,29 +62,32 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/assets/
+    - lib/assets/images/
+    - lib/assets/mobileBankApp/
     - lib/assets/form_logo.png
     - lib/assets/test_image.png
-    - lib/assets/mobileBankApp/Add.png
-    - lib/assets/mobileBankApp/Bill_payment.png
-    - lib/assets/mobileBankApp/Bill-1.png
-    - lib/assets/mobileBankApp/Bill.png
-    - lib/assets/mobileBankApp/card.png
-    - lib/assets/mobileBankApp/Expense.png
-    - lib/assets/mobileBankApp/Homw.png
-    - lib/assets/mobileBankApp/Income.png
-    - lib/assets/mobileBankApp/master.png
-    - lib/assets/mobileBankApp/Mobile.png
-    - lib/assets/mobileBankApp/More.png
-    - lib/assets/mobileBankApp/Pin_code.png
-    - lib/assets/mobileBankApp/profile.png
-    - lib/assets/mobileBankApp/Remove.png
-    - lib/assets/mobileBankApp/salary.png
-    - lib/assets/mobileBankApp/Shopping.png
-    - lib/assets/mobileBankApp/Statement.png
-    - lib/assets/mobileBankApp/Transactions.png
-    - lib/assets/mobileBankApp/Transfer-1.png
-    - lib/assets/mobileBankApp/Transfer.png
-    - lib/assets/mobileBankApp/visa.png
+    # - lib/assets/mobileBankApp/Add.png
+    # - lib/assets/mobileBankApp/Bill_payment.png
+    # - lib/assets/mobileBankApp/Bill-1.png
+    # - lib/assets/mobileBankApp/Bill.png
+    # - lib/assets/mobileBankApp/card.png
+    # - lib/assets/mobileBankApp/Expense.png
+    # - lib/assets/mobileBankApp/Homw.png
+    # - lib/assets/mobileBankApp/Income.png
+    # - lib/assets/mobileBankApp/master.png
+    # - lib/assets/mobileBankApp/Mobile.png
+    # - lib/assets/mobileBankApp/More.png
+    # - lib/assets/mobileBankApp/Pin_code.png
+    # - lib/assets/mobileBankApp/profile.png
+    # - lib/assets/mobileBankApp/Remove.png
+    # - lib/assets/mobileBankApp/salary.png
+    # - lib/assets/mobileBankApp/Shopping.png
+    # - lib/assets/mobileBankApp/Statement.png
+    # - lib/assets/mobileBankApp/Transactions.png
+    # - lib/assets/mobileBankApp/Transfer-1.png
+    # - lib/assets/mobileBankApp/Transfer.png
+    # - lib/assets/mobileBankApp/visa.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

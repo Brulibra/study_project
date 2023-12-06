@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/study-projects/forms/services/app_controler.dart';
-import 'package:study_project/study-projects/forms/pages/forms_home_page.dart';
-import 'package:study_project/study-projects/forms/pages/forms_login_page.dart';
-import 'package:study_project/home_page.dart';
-import 'package:study_project/study-projects/image_study/external_package/pinch_zoom.dart';
-import 'package:study_project/study-projects/image_study/native/pinch_image_page.dart';
+
+import '../study-projects/forms/services/app_controler.dart';
+import '../study-projects/forms/pages/forms_home_page.dart';
+import '../study-projects/forms/pages/forms_login_page.dart';
+import '../home_page.dart';
+import '../study-projects/grimorio/main.dart';
+import '../study-projects/image_study/external_package/pinch_zoom.dart';
+import '../study-projects/image_study/native/pinch_image_page.dart';
 
 import '../study-projects/image_study/external_package/easy_image_viewer.dart';
 
@@ -31,7 +33,8 @@ class AppWidget extends StatelessWidget {
             '/formsHome': (context) => const HomePage(),
             '/pinchImages': (context) => const PinchImages(),
             '/easyImage': (context) => const EasyImageViewer(),
-            '/pinchZoom': (context) => const PinchZoomWidget()
+            '/pinchZoom': (context) => const PinchZoomWidget(),
+            '/grimorio':(context) => const Grimorio()
           },
         );
       },

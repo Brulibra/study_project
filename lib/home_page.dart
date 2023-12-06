@@ -58,8 +58,10 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
                           },
                         ),
                         ElevatedButton(
-                          child: const Text('Conversor de Moedas'),
-                          onPressed: () {},
+                          child: const Text('Grimório'),
+                          onPressed: () {
+                            Navigator.of(context).pushNamed('/grimorio');
+                          },
                         ),
                       ],
                     ),
