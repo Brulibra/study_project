@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
                     height: 150,
                     child: Image.asset('lib/assets/form_logo.png')),
                 Card(
-                  color: Colors.purple[100],
+                  color: Colors.blue[100],
                   child: Padding(
                     padding: const EdgeInsets.only(
                         top: 8.0, right: 8.0, left: 8.0, bottom: 12.0),
@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
                           onPressed: () {
                             if (email == 'ana@teste.com' &&
                                 password == '1234') {
-                              Navigator.of(context).pushNamed('/home');
+                              Navigator.of(context).pushNamed('/formsHome');
                             } else {
                               print('errado');
                             }
