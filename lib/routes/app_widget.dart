@@ -4,7 +4,6 @@ import '../study-projects/forms/services/app_controler.dart';
 import '../study-projects/forms/pages/forms_home_page.dart';
 import '../study-projects/forms/pages/forms_login_page.dart';
 import '../home_page.dart';
-import '../study-projects/grimorio/main.dart';
 import '../study-projects/image_study/external_package/pinch_zoom.dart';
 import '../study-projects/image_study/native/pinch_image_page.dart';
 
@@ -34,7 +33,6 @@ class AppWidget extends StatelessWidget {
             '/pinchImages': (context) => const PinchImages(),
             '/easyImage': (context) => const EasyImageViewer(),
             '/pinchZoom': (context) => const PinchZoomWidget(),
-            '/grimorio':(context) => const Grimorio()
           },
         );
       },

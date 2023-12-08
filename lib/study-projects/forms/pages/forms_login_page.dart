@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                     width: 150,
                     height: 150,
-                    child: Image.asset('lib/assets/images/form_logo.png')),
+                    child: Image.asset('lib/assets/form_logo.png')),
                 Card(
                   color: Colors.purple[100],
                   child: Padding(

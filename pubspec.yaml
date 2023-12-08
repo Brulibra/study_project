@@ -67,27 +67,6 @@ flutter:
     - lib/assets/mobileBankApp/
     - lib/assets/form_logo.png
     - lib/assets/test_image.png
-    # - lib/assets/mobileBankApp/Add.png
-    # - lib/assets/mobileBankApp/Bill_payment.png
-    # - lib/assets/mobileBankApp/Bill-1.png
-    # - lib/assets/mobileBankApp/Bill.png
-    # - lib/assets/mobileBankApp/card.png
-    # - lib/assets/mobileBankApp/Expense.png
-    # - lib/assets/mobileBankApp/Homw.png
-    # - lib/assets/mobileBankApp/Income.png
-    # - lib/assets/mobileBankApp/master.png
-    # - lib/assets/mobileBankApp/Mobile.png
-    # - lib/assets/mobileBankApp/More.png
-    # - lib/assets/mobileBankApp/Pin_code.png
-    # - lib/assets/mobileBankApp/profile.png
-    # - lib/assets/mobileBankApp/Remove.png
-    # - lib/assets/mobileBankApp/salary.png
-    # - lib/assets/mobileBankApp/Shopping.png
-    # - lib/assets/mobileBankApp/Statement.png
-    # - lib/assets/mobileBankApp/Transactions.png
-    # - lib/assets/mobileBankApp/Transfer-1.png
-    # - lib/assets/mobileBankApp/Transfer.png
-    # - lib/assets/mobileBankApp/visa.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -100,17 +79,20 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: BigelowRules
+      fonts:
+      - asset: lib/assets/fonts/BigelowRules-Regular.ttf
+    # - family: Schyler
+    #   fonts:
+    #     - asset: fonts/Schyler-Regular.ttf
+    #     - asset: fonts/Schyler-Italic.ttf
+    #       style: italic
+    # - family: Trajan Pro
+    #   fonts:
+    #     - asset: fonts/TrajanPro.ttf
+    #     - asset: fonts/TrajanPro_Bold.ttf
+    #       weight: 700
+  
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -46,9 +46,9 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
                           },
                         ),
                         ElevatedButton(
-                          child: const Text('Easy Image'),
+                          child: const Text('Easy Image - indisponível'),
                           onPressed: () {
-                            Navigator.of(context).pushNamed('/easyImage');
+                            // Navigator.of(context).pushNamed('/easyImage');
                           },
                         ),
                         ElevatedButton(
@@ -58,9 +58,9 @@ class _ProjectsHomePageState extends State<ProjectsHomePage> {
                           },
                         ),
                         ElevatedButton(
-                          child: const Text('Grimório'),
+                          child: const Text('Grimório - indisponível'),
                           onPressed: () {
-                            Navigator.of(context).pushNamed('/grimorio');
+                            // Navigator.of(context).pushNamed('/grimorio');
                           },
                         ),
                       ],
