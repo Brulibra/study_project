@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/study-projects/image_study/native/aspect_ratio_widget.dart';
+import 'aspect_ratio_widget.dart';
 
 class PinchImages extends StatefulWidget {
   const PinchImages({super.key});
